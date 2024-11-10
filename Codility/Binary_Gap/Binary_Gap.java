@@ -1,11 +1,12 @@
 // Link: https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
 
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Solution {
-    public int solution(int N) {
+class Solution {
+    public static int solution(int N) {
         if (N <= 4)
             return 0;
 
