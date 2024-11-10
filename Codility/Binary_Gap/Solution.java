@@ -1,10 +1,11 @@
+// Link: https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Solution {
-    public static int solution(int N) {
+    public int solution(int N) {
         if (N <= 4)
             return 0;
 
@@ -34,9 +35,5 @@ public class Solution {
         }
 
         return max;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(solution(1041));
     }
 }
